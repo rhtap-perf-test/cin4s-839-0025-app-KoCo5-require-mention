@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xwqp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/cin4s-839-0025-tenant/cin4s-839-0025-app/devfile-sample-xwqp@sha256:afa66a1e804106ddac8da29508e2014edd408ce35b74b03ef96cad1e1a5920dd
         name: my-nodejs
         ports:
         - containerPort: 3001
